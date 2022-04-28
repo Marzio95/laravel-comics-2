@@ -220,3 +220,57 @@
     margin-top: 8px;
     text-transform: uppercase;
 }
+
+//COMIC PAGE
+.comic_little_img {
+    width: 192px;
+    height: 291px;
+    position: absolute;
+    bottom: -3.25rem;
+    left: 10rem;
+}
+
+.blue_row_img {
+    height: 4rem;
+    background-color: #0282f9;
+}
+
+.row_series_comic {
+    background-color: white;
+    height: 600px;
+    font-size: medium;
+}
+
+.container2_comic {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    padding: 3rem 0;
+}
+
+.green_bar {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+
+.price_bar {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_comic {
+    margin: 1rem 0;
+}
+
+.description_comic {
+    margin-right: 2rem;
+}
+
+.row_series_comic {
+    background-color: white;
+    height: 600px;
+    font-size: medium;
+}

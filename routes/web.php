@@ -63,5 +63,12 @@ Route::get('/{id}', function ($id) {
     } else {
         abort(404);
     };
-    return view('guest.template.comic', ['product' => $selectedComic], $data);
+    return view(
+        'guest.template.comic',
+        [
+            'title' => $selectedComic['title'],
+            'comic' => $selectedComic
+        ],
+        $data
+    );
 });

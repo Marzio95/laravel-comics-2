@@ -218,3 +218,135 @@
   margin-top: 8px;
   text-transform: uppercase;
 }
+
+/* COMIC PAGE */
+.comic_little_img {
+  width: 192px;
+  height: 291px;
+  position: absolute;
+  bottom: -3.25rem;
+  left: 10rem;
+}
+
+.blue_row_img {
+  height: 4rem;
+  background-color: #0282f9;
+}
+
+.row_series_comic {
+  background-color: white;
+  height: 460px;
+  font-size: medium;
+}
+
+.container2_comic {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 3rem 0;
+}
+
+.green_bar {
+  background-color: #55ba59;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.price_bar {
+  border: 1px solid black;
+  padding: 0 1rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.title_comic {
+  margin: 1rem 0;
+}
+
+.description_comic {
+  margin-right: 2rem;
+}
+
+.border {
+  border: 1px solid black;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow {
+  color: #bafd9c;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.paragrafo {
+  line-height: 2rem;
+  color: gray;
+}
+
+.advertisement {
+  float: right;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.white_price {
+  color: white;
+}
+
+.available {
+  text-transform: uppercase;
+}
+
+.row_series_comic_gray {
+  background-color: #f6f6f6;
+  height: 460px;
+  font-size: medium;
+  border-top: 1px solid lightgray;
+}
+
+.col_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titoli_gray {
+  margin-bottom: 2rem;
+}
+
+hr {
+  background-color: lightgray;
+}
+
+.artist_space {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.color_blue_dc {
+  color: #0282f9;
+  width: 70%;
+}
+
+.color_gray_dc {
+  color: gray;
+  width: 70%;
+}
+
+.margin_left {
+  margin-left: 4rem;
+}
