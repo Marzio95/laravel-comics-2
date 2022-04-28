@@ -35,7 +35,7 @@
 
     <div class="row_series_comic_gray">
         <div class="container2_comic">
-            <div class="col_left">
+            <div class="col_left_comic">
                 <h2 class="titoli_gray">Talent</h2>
                 <hr>
                 <div class="artist_space">
@@ -59,7 +59,7 @@
                 <hr>
             </div>
 
-            <div class="col_left margin_left">
+            <div class="col_left_comic margin_left">
                 <h2 class="titoli_gray">Specs</h2>
                 <hr>
                 <div class="artist_space">
@@ -85,13 +85,13 @@
     </div>
 
 
-    <div class="row_blue">
+    <div class="row_blue became_gray">
       <div class="container_series">
-        <ul class="ul_dc_logo">
+        <ul class="ul_dc_logo height_100">
             @foreach ($arraymainbar as $item)
-            <li class="li_dc_logo">
-              <img class="dc_logo_pictures" src="{{url($item['img'])}}" alt="" />
-              <a class="link_dc_logo" href="#">{{ $item['text'] }}</a>
+            <li class="li_dc_logo trasform_li">
+              <img class="dc_logo_pictures filter" src="{{url($item['img'])}}" alt="" />
+              <a class="link_dc_logo change_link" href="#">{{ $item['text'] }}</a>
             </li>
             @endforeach
         </ul>
