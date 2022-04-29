@@ -71,4 +71,4 @@ Route::get('/{id}', function ($id) {
         ],
         $data
     );
-});
+})->name('comic');

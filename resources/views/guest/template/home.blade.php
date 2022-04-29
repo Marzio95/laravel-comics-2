@@ -13,7 +13,7 @@
       <div class="container2">
           @foreach ($arraycard as $item)
           <div class="card">
-              <a class="link_to_comic" href="http://127.0.0.1:8000/{{ $item['id'] }}">
+              <a class="link_to_comic" href="{{ route('comic',['id' => $item['id']]) }}">
               <img class="series" src="{{url($item['thumb'])}}" alt="cardText" />
               <h3 class="title_series">{{ $item['series'] }}</h3>
             </a>
