@@ -375,3 +375,7 @@ hr {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
 }
+
+.link_to_comic {
+  text-decoration: none;
+}
