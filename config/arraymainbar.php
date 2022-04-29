@@ -10,11 +10,11 @@ return
             'text' => "dc merchandise ",
         ],
         [
-            'img' => "/images/buy-comics-shop-locator.png",
+            'img' => "/images/buy-comics-subscriptions.png",
             'text' => "subscription ",
         ],
         [
-            'img' => "/images/buy-comics-subscriptions.png",
+            'img' => "/images/buy-comics-shop-locator.png",
             'text' => "comic shop locator",
         ],
         [
