@@ -33,7 +33,7 @@ Route::get('/', function () {
 
     ];
     return view('guest.template.home', $data);
-});
+})->name('home');
 
 Route::get('/{id}', function ($id) {
     $arraynavbar = config('arraynavbar');

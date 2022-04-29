@@ -10,7 +10,9 @@
 
 <body>
     <div class="container">
+      <a href="{{ route('home') }}">
         <img src="{{url('/images/dc-logo.png')}}" alt="" />
+      </a>
         <ul>
             @foreach ($arraynavbar as $item)
             <li class="li_nav">
